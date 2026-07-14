@@ -40,3 +40,20 @@ Instead of building simple scripts, every lab here is approached with a **produc
 #### 🔹 Project Name: `user_permissions.py`
 * **What it does:** Maps and models a mock user's profile metadata and permissions attributes.
 * **Why it works:** It implements structured key-value maps via Python `dictionaries` to mirror JSON payloads, executing multi-conditional boolean evaluations (`and`) to dynamically approve or deny administrative system access.
+
+---
+
+### 📁 Folder: `03_functions/`
+*Core focus: Modular code design, input/output structures, parameters, and logical returns.*
+
+#### 🔹 Project Name: `clamp_number.py`
+* **What it does:** Ensures a given number stays strictly within a set minimum and maximum boundary.
+* **Why it works:** It uses multi-conditional branching (`if`/`elif`) to evaluate numerical ranges and returns clamped boundary values when limits are exceeded.
+
+#### 🔹 Project Name: `domain_extractor.py`
+* **What it does:** Safely parses an email address string to extract the host domain name.
+* **Why it works:** It utilizes Python's `.split()` method to break the string at the `@` symbol, directly returning the second element of the resulting list.
+
+#### 🔹 Project Name: `list_averager.py`
+* **What it does:** Calculates the mathematical average of any list of numbers.
+* **Why it works:** It combines Python's built-in `sum()` and `len()` functions to perform division, including a defensive check to prevent division-by-zero errors on empty lists.
