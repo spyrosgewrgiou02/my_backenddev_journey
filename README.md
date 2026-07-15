@@ -56,4 +56,16 @@ Instead of building simple scripts, every lab here is approached with a **produc
 
 #### 🔹 Project Name: `list_averager.py`
 * **What it does:** Calculates the mathematical average of any list of numbers.
-* **Why it works:** It combines Python's built-in `sum()` and `len()` functions to perform division, including a defensive check to prevent division-by-zero errors on empty lists.
+* **Why it works:** It combines Python's built-in `sum()` and `len()` functions to perform division, including a defensive check to prevent division-by-zero errors on empty lists. 
+
+#### 🔹 Project Name: `log_formatter.py`
+* **What it does:** Formats system log entries with an optional custom severity level.
+* **Why it works:** It implements a default parameter value (`level = "INFO"`) and processes string case normalization (`.upper()`) dynamically to standardize log formats.
+
+#### 🔹 Project Name: `power_calculator.py`
+* **What it does:** Calculates the power of a base number raised to an exponent.
+* **Why it works:** It uses a default parameter to square the number by default (`exponent = 2`), returning a raw, mathematical `int` or `float` for flexible downstream calculations.
+
+#### 🔹 Project Name: `task_scheduler.py`
+* **What it does:** Appends task descriptions to a scheduler list safely.
+* **Why it works:** It avoids Python's classic mutable default argument trap by initializing the parameter default to `None` and instantiating a clean local list using identity validation (`is None`).
