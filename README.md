@@ -69,3 +69,15 @@ Instead of building simple scripts, every lab here is approached with a **produc
 #### 🔹 Project Name: `task_scheduler.py`
 * **What it does:** Appends task descriptions to a scheduler list safely.
 * **Why it works:** It avoids Python's classic mutable default argument trap by initializing the parameter default to `None` and instantiating a clean local list using identity validation (`is None`).
+
+#### 🔹 Project Name: `dynamic_concatenator.py`
+* **What it does:** Concatenates an arbitrary number of string inputs using hyphens.
+* **Why it works:** Uses `*args` to collect variable positional arguments into a tuple and joins them efficiently using `"-".join()`.
+
+#### 🔹 Project Name: `profile_card_generator.py`
+* **What it does:** Generates a structured multi-line profile card from keyword arguments.
+* **Why it works:** Uses `**kwargs` to process key-value metadata, capitalizing labels and joining lines with newline (`\n`) characters.
+
+#### 🔹 Project Name: `order_total_calculator.py`
+* **What it does:** Calculates total customer expenditure based on dynamic item-price pairings.
+* **Why it works:** Combines a required positional parameter (`customer_name`) with `**kwargs` to accumulate item costs from a dictionary's values.
