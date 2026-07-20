@@ -101,3 +101,7 @@ Instead of building simple scripts, every lab here is approached with a **produc
 #### 🔹 Project Name: `traceback_practice.py`
 * **What it does:** Resolves common Python tracebacks (`NameError` and `TypeError`).
 * **Why it works:** Uses bottom-up call stack analysis to fix undefined variable parameters and convert string inputs into numbers for math operations.
+
+#### 🔹 Project Name: `try_except_practice.py`
+* **What it does:** Uses `try/except` blocks to handle specific errors (`ZeroDivisionError`, `TypeError`, `KeyError`).
+* **Why it works:** Prevents runtime crashes by returning friendly fallback values when mathematical operations or dictionary lookups fail.
