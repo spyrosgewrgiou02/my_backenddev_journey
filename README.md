@@ -93,3 +93,11 @@ Instead of building simple scripts, every lab here is approached with a **produc
 #### 🔹 Project Name: `cart_discount_checker.py`
 * **What it does:** Evaluates subtotal thresholds and applies cart-level promotional savings.
 * **Why it works:** Separates predicate validation (`is_eligible_for_discount`) from financial calculation (`apply_discount`), adhering strictly to Single Responsibility principles.
+
+---
+
+### 📂 04_error_handling
+
+#### 🔹 Project Name: `traceback_practice.py`
+* **What it does:** Resolves common Python tracebacks (`NameError` and `TypeError`).
+* **Why it works:** Uses bottom-up call stack analysis to fix undefined variable parameters and convert string inputs into numbers for math operations.
