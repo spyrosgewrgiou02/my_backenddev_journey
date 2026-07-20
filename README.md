@@ -105,3 +105,7 @@ Instead of building simple scripts, every lab here is approached with a **produc
 #### 🔹 Project Name: `try_except_practice.py`
 * **What it does:** Uses `try/except` blocks to handle specific errors (`ZeroDivisionError`, `TypeError`, `KeyError`).
 * **Why it works:** Prevents runtime crashes by returning friendly fallback values when mathematical operations or dictionary lookups fail.
+
+#### 🔹 Project Name: `common_bugs_practice.py`
+* **What it does:** Demonstrates fixes for scope errors (`UnboundLocalError`) and type concatenation errors (`TypeError`).
+* **Why it works:** Uses explicit parameter passing to handle variable scope safely and f-strings to automatically handle data type conversions during string formatting.
