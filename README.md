@@ -81,3 +81,15 @@ Instead of building simple scripts, every lab here is approached with a **produc
 #### 🔹 Project Name: `order_total_calculator.py`
 * **What it does:** Calculates total customer expenditure based on dynamic item-price pairings.
 * **Why it works:** Combines a required positional parameter (`customer_name`) with `**kwargs` to accumulate item costs from a dictionary's values.
+
+#### 🔹 Project Name: `temp_sanitizer.py`
+* **What it does:** Converts mathematical temperatures and formats display strings cleanly.
+* **Why it works:** Decouples core arithmetic (`celsius_to_fahrenheit`) from string representation (`format_temperature`) so each function has a single, testable responsibility.
+
+#### 🔹 Project Name: `clean_text_extractor.py`
+* **What it does:** Extracts and sanitizes the initial word from a sentence.
+* **Why it works:** Isolates string cleaning (`clean_word`) into an independent helper, allowing `get_first_word` to orchestrate parsing without duplicating normalization logic.
+
+#### 🔹 Project Name: `cart_discount_checker.py`
+* **What it does:** Evaluates subtotal thresholds and applies cart-level promotional savings.
+* **Why it works:** Separates predicate validation (`is_eligible_for_discount`) from financial calculation (`apply_discount`), adhering strictly to Single Responsibility principles.
