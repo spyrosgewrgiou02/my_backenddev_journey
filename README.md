@@ -109,3 +109,11 @@ Instead of building simple scripts, every lab here is approached with a **produc
 #### 🔹 Project Name: `common_bugs_practice.py`
 * **What it does:** Demonstrates fixes for scope errors (`UnboundLocalError`) and type concatenation errors (`TypeError`).
 * **Why it works:** Uses explicit parameter passing to handle variable scope safely and f-strings to automatically handle data type conversions during string formatting.
+
+---
+
+### 📂 05_iteration_power
+
+#### 🔹 Project Name: `comprehensions_practice.py`
+* **What it does:** Demonstrates list and dictionary comprehensions for data transformations and filtering.
+* **Why it works:** Replaces verbose multi-line `for` loops with concise, single-line declarative comprehension syntax.
