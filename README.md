@@ -117,3 +117,7 @@ Instead of building simple scripts, every lab here is approached with a **produc
 #### 🔹 Project Name: `comprehensions_practice.py`
 * **What it does:** Demonstrates list and dictionary comprehensions for data transformations and filtering.
 * **Why it works:** Replaces verbose multi-line `for` loops with concise, single-line declarative comprehension syntax.
+
+#### 🔹 Project Name: `enumerate_zip_practice.py`
+* **What it does:** Uses `enumerate` for index-aware string formatting and `zip` for pairing multi-iterable data streams into filtered dictionaries.
+* **Why it works:** Leverages Python's built-in iteration helpers to eliminate manual loop counters and index lookups.
